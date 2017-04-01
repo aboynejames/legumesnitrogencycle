@@ -1,0 +1,322 @@
+html {overflow:-moz-scrollbars-vertical !important;}
+
+/* Body */
+	body {
+		background: #F5F4EF; /*url('../images/bg.png')*/
+		color: #000305;
+		font-size: 14px;
+		font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		line-height: 1.429;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+
+
+
+/* HTML5 tags */
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+/**
+*
+* Clear any float elements
+*
+*/
+.clear {clear: both;}
+
+/**
+*
+* Welcome message
+*
+*/
+ #welcome {
+	margin: auto;
+	width:100%;
+	text-align:center;
+
+}
+
+ .welcome-message {
+	display:inline-block;
+	width:340px;
+	vertical-align:middle
+ }
+
+ .welcome-image {
+	display:inline-block;
+	width:340px;
+	vertical-align:middle
+ }
+
+ #welcome-message {
+	background: #eee;
+	width:300px;
+	height:200px;
+	line-height:20px;
+	padding:20px;
+}
+
+/**
+*
+* Framework navigation
+*
+*/
+#gaiasoul{
+	font-size:1.4em;
+
+}
+
+img#quoteslogo {
+	height:4%;
+	width:4%;
+
+}
+
+#attention-focus {
+	display:inline-block;
+
+}
+
+#attention-focus input {
+	width:420px;
+	font-size:2em;
+
+}
+
+#sensors {
+	display:inline-block;
+	font-size:1.6em;
+	margin-left:30px;
+
+}
+
+#dmap{
+	display:inline-block;
+	font-size:1.6em;
+	margin-left:30px;
+
+}
+
+#ptop {
+	display:inline-block;
+	font-size:1.6em;
+	margin-left:30px;
+
+}
+
+#identity{
+	display:inline-block;
+	font-size:1.6em;
+	margin-left:30px;
+
+}
+
+#select-gaiasoul-view {
+
+
+}
+
+#select-gaiasoul-view ul li
+{
+	display:inline-block;
+	margin-left:5px;
+	list-style-type:none;
+
+}
+
+#being {
+
+
+}
+
+#ourworld {
+	display:none;
+
+}
+
+#stream {
+	display:none;
+
+
+}
+
+#mindmap {
+	display:none;
+
+
+}
+
+#dmaps-order ul li {
+	margin: 2em;
+	font-size: 1.2em;
+
+
+}
+
+/*
+*  Dmaps  science computation views
+*
+*
+*/
+#dmap-view {
+	display:none;
+	margin:40px;
+
+}
+
+#dmap-dashboard {
+	border: 0px solid black;
+
+
+}
+
+#dmap-dashboard header{
+	border: 0px solid black;
+
+
+}
+
+#dmap-add-new {
+	display:none;
+	border: 1px solid grey;
+
+}
+
+#dmap-template-form {
+	display:none;
+
+}
+
+/**
+*
+* Add new Dmap
+*
+*/
+#dmap_form ul li {
+	list-style-type: none;
+
+}
+
+#dmap-scripting {
+	display:block;
+	border:1px solid blue;
+	margin:2em;
+
+}
+
+#dmap-mapping-notification {
+	display:block;
+	border:1px solid blue;
+	margin:2em;
+
+}
+
+#dmap-mapping-visualization {
+	display:block;
+	border:1px solid blue;
+	margin:2em;
+
+}
+/*
+*  Authorisation views
+*
+*/
+#authorisation {
+	display:none;
+	margin:40px;
+
+}
+
+/*
+*  Sensor and data views
+*
+*
+*/
+#sensor-data {
+	display:none;
+	margin:40px;
+
+}
+
+/*
+*  Sensor Data view
+*
+*/
+#sensor-data-dashboard header {
+	margin-top:30px;
+
+
+}
+
+#sensor-data-template-form {
+	display:none;
+
+}
+
+#sensor_form ul li {
+	list-style-type: none;
+
+}
+
+/**
+*
+* Peer to Peer view
+*
+*/
+#ptop-view {
+	display:none;
+	margin:40px;
+}
+
+/**
+*
+* compare genomics
+*
+*/
+#canvas-comparegene-chart {
+	height:400px;
+	width:800px;
+
+}
+
+#canvas-comparegene-chart2 {
+	height:400px;
+	width:800px;
+
+}
+/**
+*
+* Chart Future
+*
+*/
+#canvas-predict-chart {
+	height:400px;
+	width:600px;
+
+}
+
+#canvas-predict-chart-light {
+	height:400px;
+	width:600px;
+
+}
+
+#canvas-predict-chart-temperature {
+	height:400px;
+	width:600px;
+
+}
+
+@media screen and (max-width: 320px) {
+
+
+}
+
+
+@media screen and (min-width: 600px) {
+
+
+}

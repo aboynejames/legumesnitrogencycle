@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "external-ip": "^0.2.4",
+    "influx": "^5.0.1",
+    "kad": "^1.6.1",
+    "kad-traverse": "0.0.4",
+    "socket.io": "0.9.16",
+    "web3": "0.17.0-beta",
+    "nodegit": "^0.17.0",
+    "vm2": "^3.2.0",
+    "simple-statistics": "file:simple-statistics"
+  }
+}
